@@ -57,9 +57,9 @@ class Config {
 
 2. To start the development server, use the following command: `npm start`
 
-3. To build the production-ready bundle, use the following command: `npm run build`
+3. Change the API call domain, open the file: src/components/api/api.js and change the line: `const API_URL = "";` to your api domain
 
-4. To change the API call domain, open the file: src/components/api/api.js and change the line: `const API_URL = "";` to your api domain
+4. To build the production-ready bundle, use the following command: `npm run build`
 
 5. To login, enter email: admin@admin.com password: 1234
 
