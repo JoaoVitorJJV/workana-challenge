@@ -1,12 +1,11 @@
 <?php
 namespace src\controllers;
 /* 
-    Esta classe contém toda a lógica que utiliza-se com os serviços de autenticação. 
-    Cada método, que temalguma interação com o lado do Banco de Dados, irá chamar o objeto 
-    UserHandler, que fica responsável pelas consultas ao banco e retorna os dados prontos. 
-    Por fim, o controller trata esses dados e os retorna de volta em formato JSON para a 
-    aplicação que consome a API. No seu construtor, o Controller recebe a requisição em formato 
-    JSON, tranforma em um array PHP e armazena no atributo req.
+  This class contains all the logic used with authentication services.
+    Each method, which has some interaction with the Database side, will call the object
+    UserHandler, which is responsible for queries to the database and returns the data ready.
+    Finally, the controller handles this data and returns it back in JSON format to the
+    application that consumes the API.
 
 */
 use src\controllers\handler\UserHandler;
