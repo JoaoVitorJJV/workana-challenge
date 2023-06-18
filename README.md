@@ -42,3 +42,5 @@ This project contains an API in PHP and a React template.
 
 3. To build the production-ready bundle, use the following command: `npm run build`
 
+4. To change the API call domain, open the file: src/components/api/api.js and change the line: `const API_URL = "http://192.168.0.108:4000";` to your api domain
+
