@@ -13,7 +13,7 @@ This project contains an API in PHP, React Template and PostgreSQL database.
 
 ### Getting Started
 
-1. Install the Composer dependencies by running the following command: `composer require`
+1. Install the Composer dependencies by running the following command: `composer install`
 
 2. Import the "database.sql" file into pgAdmin 4 (postgree)
 
