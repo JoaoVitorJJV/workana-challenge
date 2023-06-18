@@ -1,4 +1,4 @@
-const API_URL = "http://192.168.0.108:4000";
+const API_URL = "";
 
 
 const handlerReqPost = async (data, uri) => {
