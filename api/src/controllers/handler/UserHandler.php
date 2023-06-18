@@ -63,7 +63,7 @@ class UserHandler {
 
         if(empty($result)){
             $query = "INSERT INTO users (name, email, password, token, created_at, updated_at) VALUES (:name, :email, :password, :token, :created_at, :updated_at)";
-            $timestamp = new \Datetime();
+            $timestamp = new Datetime();
             $token = $this->tokenGenerator();
             $datetime = $timestamp->format('Y-m-d H:i:s');
 
